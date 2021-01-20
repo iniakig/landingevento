@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* EN ESTE ARCHIVO ENCONTRAMOS LOS ESTILOS DEL HEADER, NAV Y TITULOS */
+
+@import "estilos-generales";
+
+/* COMIENZAN LOS ESTILOS DEL CONTENIDO PRINCIPAL Y FORM */
+
+.contenido-ubicacion {
+    width: 100vw;
+    margin-top: 2vh;    
+}
+.container-ubicacion {
+    padding: 1vw;
+    width: 40vw;
+    margin-left: 2vw;
+    border: solid 3px black;
+    background-color: #EE6547;
+    float: left;
+   
+    p{
+        padding: 1vh;
+        color: #460E0D;
+            font:{ 
+                family: 'JetBrains Mono', monospace;
+                size: 1.3vw;
+                weight: 300;
+            }
+        text-align: justify;
+    }
+
+    .mapa {
+        margin-left: 1.5vw;
+        width: 35vw;
+        height: 20vw;
+    }
+}   
+
+/* EN EL ARCHIVO _ESTILOS-FORM.SCSS ENCONTRAMOS LOS ESTILOS DEL FORMULARIO */
+
+@import "estilos-form";

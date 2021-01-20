@@ -1,0 +1,96 @@
+/* COMIENZAN LOS ESTILOS DEL HEADER */
+
+header {
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+}
+
+.titulo {
+    position: absolute;
+    bottom: 0vh;
+    margin-left: 15px;
+    color: #460E0D;
+    
+    font:{ 
+        family: 'JetBrains Mono', monospace;
+        size: 5vw;
+        weight: bold;
+        }
+    }
+
+.imgheader {
+    width: 100vw;
+    height: 30vh;
+}
+
+/* CIERRAN LOS ESTILOS DEL HEADER */
+
+/* COMIENZAN LOS ESTILOS DEL NAV */
+
+nav {
+    width: 100vw;
+    position: relative;
+    background-color: #CB300F;
+}
+
+ul {
+    width: 100vw;
+    height: 5vh;
+    border-bottom: solid 5px black;
+
+    li {
+        display: inline-block;
+        margin-top: 1vh;
+        position: relative;
+        left: 10vw;
+        
+        
+        :hover {
+            background-color: #ff8800;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            margin-left: 2.5vw;
+
+            font: {
+                family: 'JetBrains Mono', monospace;
+                size: 1.3vw;
+                weight: bold;
+            }
+        }      
+    }
+}
+
+/* CIERRAN LOS ESTILOS DEL NAV */
+
+body {
+    background-color: #CB300F;
+}
+
+h3 {
+    margin-top: 1.5vh;
+    color: #460E0D;
+    font:{ 
+        family: 'JetBrains Mono', monospace;
+        size: 2vw;
+        weight: bold;
+    }
+}
+
+/* COMIENZAN ESTILOS DEL FOOTER */
+
+footer {
+    margin-left: 1vw;
+    margin-top: 2vh;
+    color: #460E0D;
+    font:{ 
+        family: 'JetBrains Mono', monospace;
+        size: 0.8vw;
+        weight: bold;
+    }
+}    
+
+/* CIERRAN ESTILOS DEL FOOTER */

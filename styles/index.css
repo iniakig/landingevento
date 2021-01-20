@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* EN ESTE ARCHIVO ENCONTRAMOS LOS ESTILOS DEL HEADER, NAV Y TITULOS */
+/* COMIENZAN LOS ESTILOS DEL HEADER */
+header {
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+}
+
+.titulo {
+  position: absolute;
+  bottom: 0vh;
+  margin-left: 15px;
+  color: #460E0D;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.imgheader {
+  width: 100vw;
+  height: 30vh;
+}
+
+/* CIERRAN LOS ESTILOS DEL HEADER */
+/* COMIENZAN LOS ESTILOS DEL NAV */
+nav {
+  width: 100vw;
+  position: relative;
+  background-color: #CB300F;
+}
+
+ul {
+  width: 100vw;
+  height: 5vh;
+  border-bottom: solid 5px black;
+}
+
+ul li {
+  display: inline-block;
+  margin-top: 1vh;
+  position: relative;
+  left: 10vw;
+}
+
+ul li :hover {
+  background-color: #ff8800;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 2.5vw;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+/* CIERRAN LOS ESTILOS DEL NAV */
+body {
+  background-color: #CB300F;
+}
+
+h3 {
+  margin-top: 1.5vh;
+  color: #460E0D;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+/* COMIENZAN ESTILOS DEL FOOTER */
+footer {
+  margin-left: 1vw;
+  margin-top: 2vh;
+  color: #460E0D;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+
+/* CIERRAN ESTILOS DEL FOOTER */
+/* COMIENZAN LOS ESTILOS DEL CONTENIDO PRINCIPAL Y FORM */
+.contenido-index {
+  width: 100vw;
+  margin-top: 2vh;
+}
+
+.container-descripcion {
+  padding: 1vw;
+  width: 40vw;
+  margin-left: 3vw;
+  border: solid 3px black;
+  background-color: #EE6547;
+  float: left;
+}
+
+.container-descripcion p {
+  padding: 1vh;
+  color: #460E0D;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.3vw;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* EN EL ARCHIVO _ESTILOS-FORM.SCSS ENCONTRAMOS LOS ESTILOS DEL FORMULARIO */
+/* ESTABLECEMOS EL TAMANO Y POSICIONAMIENTO DEL CONTENEDOR PRINCIPAL DEL FORM */
+.container-form {
+  width: 32vw;
+  height: 35vw;
+  float: right;
+  margin-right: 2vw;
+  border: solid 3px black;
+  border-radius: 10%;
+  background-color: #EE6547;
+}
+
+/* CIERRA EL ESTILO DEL CONTENEDOR PRINCIPAL*/
+/* COMIENZAN LOS ESTILOS DE LOS CAMPOS DEL FORMULARIO*/
+.form-title {
+  text-align: center;
+  padding: 1vw;
+}
+
+.form-input {
+  margin: 2vw;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.3vw;
+  font-weight: 300;
+}
+
+input {
+  border: solid 2px black;
+  border-radius: 10px;
+  margin-left: 0.5vw;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+button {
+  margin-left: 8.5vw;
+  width: 15vw;
+  height: 15vh;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+/* SALTO DE LINEA AGREGADO PARA QUE NO SUBA EL FOOTER*/
+br {
+  clear: both;
+}
+
+br {
+  clear: both;
+}
+/*# sourceMappingURL=index.css.map */

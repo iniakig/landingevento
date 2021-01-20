@@ -1,0 +1,62 @@
+/* ESTABLECEMOS EL TAMANO Y POSICIONAMIENTO DEL CONTENEDOR PRINCIPAL DEL FORM */
+
+.container-form {
+    width: 32vw;
+    height: 35vw;
+    float: right;
+    margin-right: 2vw;
+    border: solid 3px black;
+    border-radius: 10%;
+    background-color: #EE6547;
+}
+/* CIERRA EL ESTILO DEL CONTENEDOR PRINCIPAL*/
+
+/* COMIENZAN LOS ESTILOS DE LOS CAMPOS DEL FORMULARIO*/
+
+.form-title {
+    text-align: center;
+    padding: 1vw;
+}
+
+.form-input {
+    margin: 2vw;
+    font:{ 
+        family: 'JetBrains Mono', monospace;
+        size: 1.3vw;
+        weight: 300;
+    }
+}
+    
+    input {
+        border: solid 2px black;
+        border-radius: 10px;
+        margin-left: 0.5vw;
+        font:{ 
+            family: 'JetBrains Mono', monospace;
+            size: 1.3vw;
+            weight: bold;
+        }
+
+   }
+
+   button {
+    margin-left: 8.5vw;
+    width: 15vw;
+    height: 15vh;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: transparent;
+    font:{ 
+        family: 'JetBrains Mono', monospace;
+        size: 1.3vw;
+        weight: bold;
+    }
+   }
+
+   /* SALTO DE LINEA AGREGADO PARA QUE NO SUBA EL FOOTER*/
+   
+   br{
+       clear: both;
+   }
+  
+  
